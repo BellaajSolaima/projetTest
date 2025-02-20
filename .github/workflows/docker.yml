@@ -45,5 +45,5 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/animal-farm-nodejs:latest
-            ghcr.io/bellaajsolaima/animal-farm-nodejs:latest  # ✅ Tout en minuscules
+            ghcr.io/bellaajsolaima/animal-farm-nodejs:latest
 
